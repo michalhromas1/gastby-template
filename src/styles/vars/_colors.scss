@@ -1,0 +1,27 @@
+// --- Base Colors ---
+$c-blue: #1cb1d5;
+$c-orange: #e66337;
+$c-gray: #6b6569;
+$c-black-2: #32292f;
+$c-white: #ffffff;
+$c-black: #000000;
+$c-black-3: #100f10;
+$c-gray-2: #eeeeee;
+
+// --- Semantic Colors ---
+$c-theme: $c-blue;
+$c-primary: $c-gray;
+$c-secondary: $c-black-2;
+$c-accent: $c-orange;
+
+$c-copy: $c-gray-2;
+$c-copy-bg: $c-black-3;
+$c-body-2: $c-white;
+$c-body-bg: $c-white;
+
+$c-body: $c-primary;
+$c-footer-bg: $c-secondary;
+$c-headings: $c-secondary;
+$c-navbar-bg: $c-theme;
+$c-subheadings: $c-theme;
+$c-btn-bg: $c-accent;

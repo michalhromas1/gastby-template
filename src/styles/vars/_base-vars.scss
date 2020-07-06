@@ -1,0 +1,10 @@
+// --- Helpers ---
+$helper-default__precision: 3;
+
+// --- Breakpoints ---
+$brp__general--fluid-base: 1920px; // Full HD
+$brp__general--fluid-to: 7680px; // 8K
+
+$brp__portrait--fluid-base: 320px; // iPhone X
+$brp__portrait--fluid-to: 600px;
+$brp__portrait--max: 1024px; // iPad Pro
