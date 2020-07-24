@@ -65,8 +65,18 @@
   }
 }
 
+@mixin navbarOffset {
+  --navbar-height: #{get-em($navbar-height, $fs-body)};
+  margin-top: var(--navbar-height);
+
+  @media (orientation: portrait) and (max-width: $brp__portrait--max) {
+    --navbar-height: #{get-em($navbar-height--portrait, $fs-body--portrait)};
+  }
+}
+
 @mixin vh100 {
-  height: 100vh;
+  @include navbarOffset;
+  height: calc(100vh - var(--navbar-height));
   display: flex;
   flex-direction: column;
   justify-content: center;
